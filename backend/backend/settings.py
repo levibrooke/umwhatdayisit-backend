@@ -20,10 +20,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*j5_z0th7jk0^rjl!_&_4*+$oms_ve4n9o8ig!#^(^c4og)_-!'
+SECRET_KEY = '<key>'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'umwhatdayisit',
         'ENFORCE_SCHEMA': True,
         'CLIENT': {
-            'host': 'mongodb+srv://levi:Q0qZrSIKWYiRPS92@umwhatdayisit.imir37c.mongodb.net/?retryWrites=true&w=majority'
+            'host': 'mongodb+srv://<username>:<password>@<uri>'
         }
     }
 }
