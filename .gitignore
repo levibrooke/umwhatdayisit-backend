@@ -1,5 +1,7 @@
-# from https://github.com/django/django/blob/main/.gitignore
+# custom
+.env
 
+# from https://github.com/django/django/blob/main/.gitignore
 *.egg-info
 *.pot
 *.py[co]
