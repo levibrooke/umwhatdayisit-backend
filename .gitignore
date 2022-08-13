@@ -1,5 +1,6 @@
 # custom
 .env
+backend/static/
 
 # from https://github.com/django/django/blob/main/.gitignore
 *.egg-info
