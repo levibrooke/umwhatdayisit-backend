@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b2d56684-0305-4ef6-a14e-90a153b296a5/deploy-status?branch=rest-backend)](https://app.netlify.com/sites/um-what-day-is-it/deploys)
-
 # Um What Day Is It?
 Because seriously, what day is it? Live at https://rest-backend.umwhatdayisit.com/
 
