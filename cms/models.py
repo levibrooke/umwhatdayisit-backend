@@ -20,7 +20,7 @@ class Content(models.Model):
   ]
   mediaType = models.CharField(max_length=512, choices=MEDIATYPE_CHOICES)
 
-  mediaLink = models.URLField()
+  mediaLink = models.CharField(max_length=512)
   alt = models.CharField(max_length=512)
   message = models.TextField()
 
